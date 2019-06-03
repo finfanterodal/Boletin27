@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package boletin27;
 
 /**
@@ -16,12 +11,7 @@ public class Boletin27 {
      */
     public static void main(String[] args) {
         Calculadora c1=new Calculadora();
-        c1.setVisible(true);
-        System.out.println(5*5+3);
-        String resultado="5.5";
-        Double res=Double.parseDouble(resultado);
-        System.out.println(resultado);
-        
+        c1.setVisible(true);       
     }
     
 }
